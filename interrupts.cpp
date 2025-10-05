@@ -1,7 +1,7 @@
 /**
  *
  * @file interrupts.cpp
- * @author Sasisekhar Govind
+ * @author Stefan Msrtincevic Sadman Sajid
  *
  */
 
@@ -19,7 +19,8 @@ int main(int argc, char** argv) {
     std::string execution;  //!< string to accumulate the execution output
 
     /******************ADD YOUR VARIABLES HERE*************************/
-
+    int current_time = 0;
+    execution = "Time of the event,Duration of the event,Event type\n";
 
 
     /******************************************************************/
@@ -29,7 +30,18 @@ int main(int argc, char** argv) {
         auto [activity, duration_intr] = parse_trace(trace);
 
         /******************ADD YOUR SIMULATION CODE HERE*************************/
+        if (activity == "CPU") // process CPU 
+        {
+            execution += std::to_string(current_time) + ", " + std::to_string(duration_intr) + ", " + activity + "\n";
+            current_time += duration_intr;
+        }
 
+        else // process interrupts
+        {
+            std::pair<std::string, int> result = intr_boilerplate(current_time, duration_intr, 10, vectors);
+            execution += result.first;
+            current_time = result.second;
+        }
 
 
         /************************************************************************/
