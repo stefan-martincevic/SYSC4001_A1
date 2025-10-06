@@ -1,0 +1,546 @@
+Time of the event,Duration of the event,Event type
+0, 86, CPU burst
+86, 1, switch to kernel mode
+87, 10, context saved
+97, 1, find vector 9 in memory position 0x0012
+98, 1, load address 0X036C into the PC
+99, 43, call device driver
+142, 10, Context switch
+152, 1, Execute IRET
+153, 61, CPU burst
+214, 1, switch to kernel mode
+215, 10, context saved
+225, 1, find vector 9 in memory position 0x0012
+226, 1, load address 0X036C into the PC
+227, 43, Store information in memory
+270, 10, Context switch
+280, 1, Execute IRET
+281, 27, CPU burst
+308, 1, switch to kernel mode
+309, 10, context saved
+319, 1, find vector 17 in memory position 0x0022
+320, 1, load address 0X05B3 into the PC
+321, 120, call device driver
+441, 10, Context switch
+451, 1, Execute IRET
+452, 19, CPU burst
+471, 1, switch to kernel mode
+472, 10, context saved
+482, 1, find vector 17 in memory position 0x0022
+483, 1, load address 0X05B3 into the PC
+484, 120, Store information in memory
+604, 10, Context switch
+614, 1, Execute IRET
+615, 92, CPU burst
+707, 1, switch to kernel mode
+708, 10, context saved
+718, 1, find vector 8 in memory position 0x0010
+719, 1, load address 0X06EF into the PC
+720, 191, call device driver
+911, 10, Context switch
+921, 1, Execute IRET
+922, 36, CPU burst
+958, 1, switch to kernel mode
+959, 10, context saved
+969, 1, find vector 8 in memory position 0x0010
+970, 1, load address 0X06EF into the PC
+971, 191, Store information in memory
+1162, 10, Context switch
+1172, 1, Execute IRET
+1173, 19, CPU burst
+1192, 1, switch to kernel mode
+1193, 10, context saved
+1203, 1, find vector 1 in memory position 0x0002
+1204, 1, load address 0X029C into the PC
+1205, 86, call device driver
+1291, 10, Context switch
+1301, 1, Execute IRET
+1302, 33, CPU burst
+1335, 1, switch to kernel mode
+1336, 10, context saved
+1346, 1, find vector 1 in memory position 0x0002
+1347, 1, load address 0X029C into the PC
+1348, 86, Store information in memory
+1434, 10, Context switch
+1444, 1, Execute IRET
+1445, 90, CPU burst
+1535, 1, switch to kernel mode
+1536, 10, context saved
+1546, 1, find vector 20 in memory position 0x0028
+1547, 1, load address 0X07B7 into the PC
+1548, 0, call device driver
+1548, 10, Context switch
+1558, 1, Execute IRET
+1559, 13, CPU burst
+1572, 1, switch to kernel mode
+1573, 10, context saved
+1583, 1, find vector 20 in memory position 0x0028
+1584, 1, load address 0X07B7 into the PC
+1585, 0, Store information in memory
+1585, 10, Context switch
+1595, 1, Execute IRET
+1596, 12, CPU burst
+1608, 1, switch to kernel mode
+1609, 10, context saved
+1619, 1, find vector 13 in memory position 0x001A
+1620, 1, load address 0X06C7 into the PC
+1621, 81, call device driver
+1702, 10, Context switch
+1712, 1, Execute IRET
+1713, 23, CPU burst
+1736, 1, switch to kernel mode
+1737, 10, context saved
+1747, 1, find vector 13 in memory position 0x001A
+1748, 1, load address 0X06C7 into the PC
+1749, 81, Store information in memory
+1830, 10, Context switch
+1840, 1, Execute IRET
+1841, 51, CPU burst
+1892, 1, switch to kernel mode
+1893, 10, context saved
+1903, 1, find vector 10 in memory position 0x0014
+1904, 1, load address 0X07B0 into the PC
+1905, 77, call device driver
+1982, 10, Context switch
+1992, 1, Execute IRET
+1993, 49, CPU burst
+2042, 1, switch to kernel mode
+2043, 10, context saved
+2053, 1, find vector 10 in memory position 0x0014
+2054, 1, load address 0X07B0 into the PC
+2055, 77, Store information in memory
+2132, 10, Context switch
+2142, 1, Execute IRET
+2143, 87, CPU burst
+2230, 1, switch to kernel mode
+2231, 10, context saved
+2241, 1, find vector 5 in memory position 0x000A
+2242, 1, load address 0X048B into the PC
+2243, 54, call device driver
+2297, 10, Context switch
+2307, 1, Execute IRET
+2308, 55, CPU burst
+2363, 1, switch to kernel mode
+2364, 10, context saved
+2374, 1, find vector 5 in memory position 0x000A
+2375, 1, load address 0X048B into the PC
+2376, 54, Store information in memory
+2430, 10, Context switch
+2440, 1, Execute IRET
+2441, 17, CPU burst
+2458, 1, switch to kernel mode
+2459, 10, context saved
+2469, 1, find vector 3 in memory position 0x0006
+2470, 1, load address 0X042B into the PC
+2471, 84, call device driver
+2555, 10, Context switch
+2565, 1, Execute IRET
+2566, 66, CPU burst
+2632, 1, switch to kernel mode
+2633, 10, context saved
+2643, 1, find vector 3 in memory position 0x0006
+2644, 1, load address 0X042B into the PC
+2645, 84, Store information in memory
+2729, 10, Context switch
+2739, 1, Execute IRET
+2740, 93, CPU burst
+2833, 1, switch to kernel mode
+2834, 10, context saved
+2844, 1, find vector 20 in memory position 0x0028
+2845, 1, load address 0X07B7 into the PC
+2846, 0, call device driver
+2846, 10, Context switch
+2856, 1, Execute IRET
+2857, 12, CPU burst
+2869, 1, switch to kernel mode
+2870, 10, context saved
+2880, 1, find vector 20 in memory position 0x0028
+2881, 1, load address 0X07B7 into the PC
+2882, 0, Store information in memory
+2882, 10, Context switch
+2892, 1, Execute IRET
+2893, 88, CPU burst
+2981, 1, switch to kernel mode
+2982, 10, context saved
+2992, 1, find vector 14 in memory position 0x001C
+2993, 1, load address 0X0165 into the PC
+2994, 150, call device driver
+3144, 10, Context switch
+3154, 1, Execute IRET
+3155, 79, CPU burst
+3234, 1, switch to kernel mode
+3235, 10, context saved
+3245, 1, find vector 14 in memory position 0x001C
+3246, 1, load address 0X0165 into the PC
+3247, 150, Store information in memory
+3397, 10, Context switch
+3407, 1, Execute IRET
+3408, 93, CPU burst
+3501, 1, switch to kernel mode
+3502, 10, context saved
+3512, 1, find vector 1 in memory position 0x0002
+3513, 1, load address 0X029C into the PC
+3514, 86, call device driver
+3600, 10, Context switch
+3610, 1, Execute IRET
+3611, 94, CPU burst
+3705, 1, switch to kernel mode
+3706, 10, context saved
+3716, 1, find vector 1 in memory position 0x0002
+3717, 1, load address 0X029C into the PC
+3718, 86, Store information in memory
+3804, 10, Context switch
+3814, 1, Execute IRET
+3815, 68, CPU burst
+3883, 1, switch to kernel mode
+3884, 10, context saved
+3894, 1, find vector 3 in memory position 0x0006
+3895, 1, load address 0X042B into the PC
+3896, 84, call device driver
+3980, 10, Context switch
+3990, 1, Execute IRET
+3991, 58, CPU burst
+4049, 1, switch to kernel mode
+4050, 10, context saved
+4060, 1, find vector 3 in memory position 0x0006
+4061, 1, load address 0X042B into the PC
+4062, 84, Store information in memory
+4146, 10, Context switch
+4156, 1, Execute IRET
+4157, 48, CPU burst
+4205, 1, switch to kernel mode
+4206, 10, context saved
+4216, 1, find vector 14 in memory position 0x001C
+4217, 1, load address 0X0165 into the PC
+4218, 150, call device driver
+4368, 10, Context switch
+4378, 1, Execute IRET
+4379, 87, CPU burst
+4466, 1, switch to kernel mode
+4467, 10, context saved
+4477, 1, find vector 14 in memory position 0x001C
+4478, 1, load address 0X0165 into the PC
+4479, 150, Store information in memory
+4629, 10, Context switch
+4639, 1, Execute IRET
+4640, 72, CPU burst
+4712, 1, switch to kernel mode
+4713, 10, context saved
+4723, 1, find vector 8 in memory position 0x0010
+4724, 1, load address 0X06EF into the PC
+4725, 191, call device driver
+4916, 10, Context switch
+4926, 1, Execute IRET
+4927, 82, CPU burst
+5009, 1, switch to kernel mode
+5010, 10, context saved
+5020, 1, find vector 8 in memory position 0x0010
+5021, 1, load address 0X06EF into the PC
+5022, 191, Store information in memory
+5213, 10, Context switch
+5223, 1, Execute IRET
+5224, 99, CPU burst
+5323, 1, switch to kernel mode
+5324, 10, context saved
+5334, 1, find vector 18 in memory position 0x0024
+5335, 1, load address 0X060A into the PC
+5336, 65, call device driver
+5401, 10, Context switch
+5411, 1, Execute IRET
+5412, 65, CPU burst
+5477, 1, switch to kernel mode
+5478, 10, context saved
+5488, 1, find vector 18 in memory position 0x0024
+5489, 1, load address 0X060A into the PC
+5490, 65, Store information in memory
+5555, 10, Context switch
+5565, 1, Execute IRET
+5566, 24, CPU burst
+5590, 1, switch to kernel mode
+5591, 10, context saved
+5601, 1, find vector 12 in memory position 0x0018
+5602, 1, load address 0X03B9 into the PC
+5603, 67, call device driver
+5670, 10, Context switch
+5680, 1, Execute IRET
+5681, 26, CPU burst
+5707, 1, switch to kernel mode
+5708, 10, context saved
+5718, 1, find vector 12 in memory position 0x0018
+5719, 1, load address 0X03B9 into the PC
+5720, 67, Store information in memory
+5787, 10, Context switch
+5797, 1, Execute IRET
+5798, 54, CPU burst
+5852, 1, switch to kernel mode
+5853, 10, context saved
+5863, 1, find vector 11 in memory position 0x0016
+5864, 1, load address 0X01F8 into the PC
+5865, 65, call device driver
+5930, 10, Context switch
+5940, 1, Execute IRET
+5941, 78, CPU burst
+6019, 1, switch to kernel mode
+6020, 10, context saved
+6030, 1, find vector 11 in memory position 0x0016
+6031, 1, load address 0X01F8 into the PC
+6032, 65, Store information in memory
+6097, 10, Context switch
+6107, 1, Execute IRET
+6108, 66, CPU burst
+6174, 1, switch to kernel mode
+6175, 10, context saved
+6185, 1, find vector 15 in memory position 0x001E
+6186, 1, load address 0X0584 into the PC
+6187, 140, call device driver
+6327, 10, Context switch
+6337, 1, Execute IRET
+6338, 79, CPU burst
+6417, 1, switch to kernel mode
+6418, 10, context saved
+6428, 1, find vector 15 in memory position 0x001E
+6429, 1, load address 0X0584 into the PC
+6430, 140, Store information in memory
+6570, 10, Context switch
+6580, 1, Execute IRET
+6581, 82, CPU burst
+6663, 1, switch to kernel mode
+6664, 10, context saved
+6674, 1, find vector 4 in memory position 0x0008
+6675, 1, load address 0X0292 into the PC
+6676, 67, call device driver
+6743, 10, Context switch
+6753, 1, Execute IRET
+6754, 88, CPU burst
+6842, 1, switch to kernel mode
+6843, 10, context saved
+6853, 1, find vector 4 in memory position 0x0008
+6854, 1, load address 0X0292 into the PC
+6855, 67, Store information in memory
+6922, 10, Context switch
+6932, 1, Execute IRET
+6933, 16, CPU burst
+6949, 1, switch to kernel mode
+6950, 10, context saved
+6960, 1, find vector 8 in memory position 0x0010
+6961, 1, load address 0X06EF into the PC
+6962, 191, call device driver
+7153, 10, Context switch
+7163, 1, Execute IRET
+7164, 26, CPU burst
+7190, 1, switch to kernel mode
+7191, 10, context saved
+7201, 1, find vector 8 in memory position 0x0010
+7202, 1, load address 0X06EF into the PC
+7203, 191, Store information in memory
+7394, 10, Context switch
+7404, 1, Execute IRET
+7405, 22, CPU burst
+7427, 1, switch to kernel mode
+7428, 10, context saved
+7438, 1, find vector 18 in memory position 0x0024
+7439, 1, load address 0X060A into the PC
+7440, 65, call device driver
+7505, 10, Context switch
+7515, 1, Execute IRET
+7516, 95, CPU burst
+7611, 1, switch to kernel mode
+7612, 10, context saved
+7622, 1, find vector 18 in memory position 0x0024
+7623, 1, load address 0X060A into the PC
+7624, 65, Store information in memory
+7689, 10, Context switch
+7699, 1, Execute IRET
+7700, 63, CPU burst
+7763, 1, switch to kernel mode
+7764, 10, context saved
+7774, 1, find vector 18 in memory position 0x0024
+7775, 1, load address 0X060A into the PC
+7776, 65, call device driver
+7841, 10, Context switch
+7851, 1, Execute IRET
+7852, 18, CPU burst
+7870, 1, switch to kernel mode
+7871, 10, context saved
+7881, 1, find vector 18 in memory position 0x0024
+7882, 1, load address 0X060A into the PC
+7883, 65, Store information in memory
+7948, 10, Context switch
+7958, 1, Execute IRET
+7959, 50, CPU burst
+8009, 1, switch to kernel mode
+8010, 10, context saved
+8020, 1, find vector 14 in memory position 0x001C
+8021, 1, load address 0X0165 into the PC
+8022, 150, call device driver
+8172, 10, Context switch
+8182, 1, Execute IRET
+8183, 56, CPU burst
+8239, 1, switch to kernel mode
+8240, 10, context saved
+8250, 1, find vector 14 in memory position 0x001C
+8251, 1, load address 0X0165 into the PC
+8252, 150, Store information in memory
+8402, 10, Context switch
+8412, 1, Execute IRET
+8413, 83, CPU burst
+8496, 1, switch to kernel mode
+8497, 10, context saved
+8507, 1, find vector 16 in memory position 0x0020
+8508, 1, load address 0X02DF into the PC
+8509, 179, call device driver
+8688, 10, Context switch
+8698, 1, Execute IRET
+8699, 23, CPU burst
+8722, 1, switch to kernel mode
+8723, 10, context saved
+8733, 1, find vector 16 in memory position 0x0020
+8734, 1, load address 0X02DF into the PC
+8735, 179, Store information in memory
+8914, 10, Context switch
+8924, 1, Execute IRET
+8925, 80, CPU burst
+9005, 1, switch to kernel mode
+9006, 10, context saved
+9016, 1, find vector 15 in memory position 0x001E
+9017, 1, load address 0X0584 into the PC
+9018, 140, call device driver
+9158, 10, Context switch
+9168, 1, Execute IRET
+9169, 98, CPU burst
+9267, 1, switch to kernel mode
+9268, 10, context saved
+9278, 1, find vector 15 in memory position 0x001E
+9279, 1, load address 0X0584 into the PC
+9280, 140, Store information in memory
+9420, 10, Context switch
+9430, 1, Execute IRET
+9431, 77, CPU burst
+9508, 1, switch to kernel mode
+9509, 10, context saved
+9519, 1, find vector 14 in memory position 0x001C
+9520, 1, load address 0X0165 into the PC
+9521, 150, call device driver
+9671, 10, Context switch
+9681, 1, Execute IRET
+9682, 11, CPU burst
+9693, 1, switch to kernel mode
+9694, 10, context saved
+9704, 1, find vector 14 in memory position 0x001C
+9705, 1, load address 0X0165 into the PC
+9706, 150, Store information in memory
+9856, 10, Context switch
+9866, 1, Execute IRET
+9867, 61, CPU burst
+9928, 1, switch to kernel mode
+9929, 10, context saved
+9939, 1, find vector 14 in memory position 0x001C
+9940, 1, load address 0X0165 into the PC
+9941, 150, call device driver
+10091, 10, Context switch
+10101, 1, Execute IRET
+10102, 34, CPU burst
+10136, 1, switch to kernel mode
+10137, 10, context saved
+10147, 1, find vector 14 in memory position 0x001C
+10148, 1, load address 0X0165 into the PC
+10149, 150, Store information in memory
+10299, 10, Context switch
+10309, 1, Execute IRET
+10310, 32, CPU burst
+10342, 1, switch to kernel mode
+10343, 10, context saved
+10353, 1, find vector 7 in memory position 0x000E
+10354, 1, load address 0X00BD into the PC
+10355, 122, call device driver
+10477, 10, Context switch
+10487, 1, Execute IRET
+10488, 69, CPU burst
+10557, 1, switch to kernel mode
+10558, 10, context saved
+10568, 1, find vector 7 in memory position 0x000E
+10569, 1, load address 0X00BD into the PC
+10570, 122, Store information in memory
+10692, 10, Context switch
+10702, 1, Execute IRET
+10703, 79, CPU burst
+10782, 1, switch to kernel mode
+10783, 10, context saved
+10793, 1, find vector 20 in memory position 0x0028
+10794, 1, load address 0X07B7 into the PC
+10795, 0, call device driver
+10795, 10, Context switch
+10805, 1, Execute IRET
+10806, 41, CPU burst
+10847, 1, switch to kernel mode
+10848, 10, context saved
+10858, 1, find vector 20 in memory position 0x0028
+10859, 1, load address 0X07B7 into the PC
+10860, 0, Store information in memory
+10860, 10, Context switch
+10870, 1, Execute IRET
+10871, 63, CPU burst
+10934, 1, switch to kernel mode
+10935, 10, context saved
+10945, 1, find vector 7 in memory position 0x000E
+10946, 1, load address 0X00BD into the PC
+10947, 122, call device driver
+11069, 10, Context switch
+11079, 1, Execute IRET
+11080, 27, CPU burst
+11107, 1, switch to kernel mode
+11108, 10, context saved
+11118, 1, find vector 7 in memory position 0x000E
+11119, 1, load address 0X00BD into the PC
+11120, 122, Store information in memory
+11242, 10, Context switch
+11252, 1, Execute IRET
+11253, 85, CPU burst
+11338, 1, switch to kernel mode
+11339, 10, context saved
+11349, 1, find vector 11 in memory position 0x0016
+11350, 1, load address 0X01F8 into the PC
+11351, 65, call device driver
+11416, 10, Context switch
+11426, 1, Execute IRET
+11427, 68, CPU burst
+11495, 1, switch to kernel mode
+11496, 10, context saved
+11506, 1, find vector 11 in memory position 0x0016
+11507, 1, load address 0X01F8 into the PC
+11508, 65, Store information in memory
+11573, 10, Context switch
+11583, 1, Execute IRET
+11584, 23, CPU burst
+11607, 1, switch to kernel mode
+11608, 10, context saved
+11618, 1, find vector 14 in memory position 0x001C
+11619, 1, load address 0X0165 into the PC
+11620, 150, call device driver
+11770, 10, Context switch
+11780, 1, Execute IRET
+11781, 22, CPU burst
+11803, 1, switch to kernel mode
+11804, 10, context saved
+11814, 1, find vector 14 in memory position 0x001C
+11815, 1, load address 0X0165 into the PC
+11816, 150, Store information in memory
+11966, 10, Context switch
+11976, 1, Execute IRET
+11977, 29, CPU burst
+12006, 1, switch to kernel mode
+12007, 10, context saved
+12017, 1, find vector 17 in memory position 0x0022
+12018, 1, load address 0X05B3 into the PC
+12019, 120, call device driver
+12139, 10, Context switch
+12149, 1, Execute IRET
+12150, 99, CPU burst
+12249, 1, switch to kernel mode
+12250, 10, context saved
+12260, 1, find vector 17 in memory position 0x0022
+12261, 1, load address 0X05B3 into the PC
+12262, 120, Store information in memory
+12382, 10, Context switch
+12392, 1, Execute IRET
+12393, 46, CPU burst

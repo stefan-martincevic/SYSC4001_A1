@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Stefan\\Documents\\University\\Fall_2025\\SYSC_4001\\sysc4001-assignment1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47C955E4-6827-438E-AF3A-38430641D7C3}|sysc4001-assignment1\\sysc4001-assignment1.vcxproj|C:\\Users\\Stefan\\Documents\\University\\Fall_2025\\SYSC_4001\\sysc4001-assignment1\\interrupts.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47C955E4-6827-438E-AF3A-38430641D7C3}|sysc4001-assignment1\\sysc4001-assignment1.vcxproj|solutionrelative:interrupts.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47C955E4-6827-438E-AF3A-38430641D7C3}|sysc4001-assignment1\\sysc4001-assignment1.vcxproj|C:\\Users\\Stefan\\Documents\\University\\Fall_2025\\SYSC_4001\\sysc4001-assignment1\\interrupts.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47C955E4-6827-438E-AF3A-38430641D7C3}|sysc4001-assignment1\\sysc4001-assignment1.vcxproj|solutionrelative:interrupts.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "interrupts.cpp",
+              "DocumentMoniker": "C:\\Users\\Stefan\\Documents\\University\\Fall_2025\\SYSC_4001\\sysc4001-assignment1\\interrupts.cpp",
+              "RelativeDocumentMoniker": "interrupts.cpp",
+              "ToolTip": "C:\\Users\\Stefan\\Documents\\University\\Fall_2025\\SYSC_4001\\sysc4001-assignment1\\interrupts.cpp",
+              "RelativeToolTip": "interrupts.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-30T02:49:12.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "interrupts.hpp",
+              "DocumentMoniker": "C:\\Users\\Stefan\\Documents\\University\\Fall_2025\\SYSC_4001\\sysc4001-assignment1\\interrupts.hpp",
+              "RelativeDocumentMoniker": "interrupts.hpp",
+              "ToolTip": "C:\\Users\\Stefan\\Documents\\University\\Fall_2025\\SYSC_4001\\sysc4001-assignment1\\interrupts.hpp",
+              "RelativeToolTip": "interrupts.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-30T02:49:03.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
